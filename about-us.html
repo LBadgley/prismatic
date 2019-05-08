@@ -1,62 +1,66 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Us</title>
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <link rel="stylesheet" type="text/css" href="./css/nav.css">
-    <link rel="stylesheet" type="text/css" href="./css/about.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600|Roboto:400,400i,700,700i|Shrikhand"
-        rel="stylesheet">
-    <link rel="icon" type="image/png" href="assets/favicon.png" />
 
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="style/about-us.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600|Roboto:400,400i,700,700i|Shrikhand"
+    rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    
     <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-database.js"></script>
+    
+    <title>About Us</title>
 </head>
-
 <body>
     <section id="header-section">
         <div id="header-container-wrapper"></div>
     </section>
-
+    
     <main id="about-us-container">
+
         <section id="about-us-headline">
             <h3>About us</h3>
         </section>
 
         <section id="about-us-flex">
             <section class="about-me" id="emily">
-                <img src="assets/about-us/emily.png" class="about-me-image" alt="photo of Emily">
-                <h4>Emily</h4>
-                <p class="about">
-                    
-                    <br><br>
-                </p>
+                <article id="one" data-color="#10e88a" class="about">
+                    <h4>Emily</h4>
+                <img src="./assets/default-avatar.png" class="about-me-image" alt="photo of Emily">
+                        Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i mechad dee Schwoanshaxn Zwedschgndadschi a bissal wos gehd ollaweil. Measi a ganze es i mog di fei aasgem, Blosmusi. Schmankal zwoa Ramasuri Edlweiss. Wia vo de Weiznglasl wos, imma hogg di hera Guglhupf! Schorsch Spotzerl schnacksln Weiznglasl vui gschmeidig a ganze auf der Oim, da gibt’s koa Sünd, etza!Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i mechad dee Schwoanshaxn Zwedschgndadschi a bissal wos gehd ollaweil. Measi a ganze es i mog di fei aasgem, Blosmusi. Schmankal zwoa Ramasuri Edlweiss. Wia vo de Weiznglasl wos, imma hogg di hera Guglhupf! Schorsch Spotzerl schnacksln Weiznglasl vui gschmeidig a ganze auf der Oim, da gibt’s koa Sünd, etza!
+                <div class="clear"></div>
+                </article>
             </section>
 
             <section class="about-me" id="chris">
-                <img src="assets/about-us/chris.png" class="about-me-image" alt ="photo of Chris">
+                <article id="two" data-color="7f3995" class="about">
                 <h4>Chris</h4>
-                <p class="about">
-                    
-                </p>
+                <img src="./assets/default-avatar.png" class="about-me-image" alt ="photo of Chris">
+                        Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i mechad dee Schwoanshaxn Zwedschgndadschi a bissal wos gehd ollaweil. Measi a ganze es i mog di fei aasgem, Blosmusi. Schmankal zwoa Ramasuri Edlweiss. Wia vo de Weiznglasl wos, imma hogg di hera Guglhupf! Schorsch Spotzerl schnacksln Weiznglasl vui gschmeidig a ganze auf der Oim, da gibt’s koa Sünd, etza!Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i mechad dee Schwoanshaxn Zwedschgndadschi a bissal wos gehd ollaweil. Measi a ganze es i mog di fei aasgem, Blosmusi. Schmankal zwoa Ramasuri Edlweiss. Wia vo de Weiznglasl wos, imma hogg di hera Guglhupf! Schorsch Spotzerl schnacksln Weiznglasl vui gschmeidig a ganze auf der Oim, da gibt’s koa Sünd, etza!
+                <div class="clear"></div>
+                </article>
             </section>
 
             <section class="about-me" id="laura">
-                <img src="assets/about-us/laura.png" class="about-me-image" alt="photo of Laura">
+                <article id="three" data-color="7f3995" class="about">
                 <h4>Laura</h4>
-                <p class="about">
-                </p>
-            </section>
+                <img src="./assets/default-avatar.png" class="about-me-image" alt="photo of Laura">
+                        Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i mechad dee Schwoanshaxn Zwedschgndadschi a bissal wos gehd ollaweil. Measi a ganze es i mog di fei aasgem, Blosmusi. Schmankal zwoa Ramasuri Edlweiss. Wia vo de Weiznglasl wos, imma hogg di hera Guglhupf! Schorsch Spotzerl schnacksln Weiznglasl vui gschmeidig a ganze auf der Oim, da gibt’s koa Sünd, etza!Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i mechad dee Schwoanshaxn Zwedschgndadschi a bissal wos gehd ollaweil. Measi a ganze es i mog di fei aasgem, Blosmusi. Schmankal zwoa Ramasuri Edlweiss. Wia vo de Weiznglasl wos, imma hogg di hera Guglhupf! Schorsch Spotzerl schnacksln Weiznglasl vui gschmeidig a ganze auf der Oim, da gibt’s koa Sünd, etza!
+                <div class="clear"></div>
+                </article>
+             </section>
         </section>
     </main>
 
     <div id="footer-container"></div>
 
-    <script type="module" src="src/about-us.js"></script>
+    <script type="module" src="./src/about-us.js"></script>
 </body>
-</html> -->
+</html>

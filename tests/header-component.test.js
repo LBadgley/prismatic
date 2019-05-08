@@ -7,7 +7,7 @@ test('create header', assert => {
     const expected = /*html*/`
         <header>
         <div id="header">
-            <h1 class="fancy-header">PRISMATIC</h1>
+            <a href="index.html"><h1 class="fancy-header">PRISMATIC</h1></a>
         </div>
         </header>
     `;

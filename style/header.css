@@ -6,6 +6,9 @@ header {
     align-items: center;
 }
 
+header a {
+    text-decoration: none;
+}
 #header {
     justify-content: flex-start;
 }
