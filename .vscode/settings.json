@@ -3,5 +3,6 @@
     "cSpell.words": [
         "colorchange",
         "firebaseui"
-    ]
+    ],
+    "liveServer.settings.port": 5502
 }
